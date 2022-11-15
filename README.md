@@ -11,3 +11,5 @@ Query fields:
 - **Has Been Emergency**: Yes 
 - **Admission Type Category**: Emergency 
 
+
+rherrera at coconino dot az dot gov 
