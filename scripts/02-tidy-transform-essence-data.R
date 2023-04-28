@@ -20,35 +20,36 @@ essence_data <- essence_data %>%
     medical_record_number,
     c_unique_patient_id,
     .keep_all = TRUE
-  ) %>%
-  select(
-    date,
-    week_year,
-    month_year,
-    year,
-    hospital_name,
-    region,
-    chief_complaint_orig,
-    chief_complaint_parsed,
-    category_flat,
-    sub_category_flat,
-    discharge_diagnosis,
-    c_patient_county,
-    patient_state,
-    patient_country,
-    sex,
-    age,
-    age_group,
-    c_ethnicity,
-    c_race,
-    c_race_c_eth_combined_narrow,
-    c_race_c_eth_combined_broad,
-    admit_date_time,
-    admit_reason_code,
-    admit_reason_combo,
-    ccdd_category_flat,
-    ccdd_category
   ) 
+# %>%
+#   select(
+#     date,
+#     week_year,
+#     month_year,
+#     year,
+#     hospital_name,
+#     region,
+#     chief_complaint_orig,
+#     chief_complaint_parsed,
+#     category_flat,
+#     sub_category_flat,
+#     discharge_diagnosis,
+#     c_patient_county,
+#     patient_state,
+#     patient_country,
+#     sex,
+#     age,
+#     age_group,
+#     c_ethnicity,
+#     c_race,
+#     c_race_c_eth_combined_narrow,
+#     c_race_c_eth_combined_broad,
+#     admit_date_time,
+#     admit_reason_code,
+#     admit_reason_combo,
+#     ccdd_category_flat,
+#     ccdd_category
+#   ) 
 
 
 # library(zoo)
